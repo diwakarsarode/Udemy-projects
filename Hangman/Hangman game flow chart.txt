@@ -1,0 +1,21 @@
+Hangman game flow chart
+
+1. create a list of words
+
+2. randomly select one word
+
+3. use len function to calculate the length of the word randomly selected
+
+4. show the user the no of words to be guessed
+
+5. ask the user to start guessing the word
+
+6. create a empty list to append the correctly guessed word.
+
+7. create a function to take max 5 wrong inputs from the user to guess the word
+
+8. if the letter is in the word, append to a empty list, if letter is not in the word then reduce the no of attempts left to hang the man
+
+9. if 5 attempts are over, hang the man
+
+10. if the word is guessed before completing 5 attemps, start random to select new word from the list.
